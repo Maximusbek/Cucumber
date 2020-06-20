@@ -86,7 +86,7 @@ public class SeleniumHomeWork11 {
 
     @Then("user creates four new accounts and clicks save button")
     public void user_creates_four_new_accounts_and_clicks_save_button() {
-
+    homePage.saveButton.click();
     }
 
 
