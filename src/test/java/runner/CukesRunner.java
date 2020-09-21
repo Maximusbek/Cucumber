@@ -6,7 +6,7 @@ import org.junit.runner.RunWith;
 
 @RunWith(Cucumber.class)
 @CucumberOptions(
-
+        plugin = {"pretty","html:target/cucumber-html-report","json:target/cucumber.json","rerun:target/rerun.txt"},
         features = "src/test/resources/com/orangehrm",
         glue = "steps/com/orange",
         tags = "@delete",
