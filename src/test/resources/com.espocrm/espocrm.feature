@@ -35,8 +35,8 @@ Feature: Espocrm Acceptance Criteria
       Examples:
         | name   | webSite     | email            | phone    | street         | city        | state | zip   | country |
         | David  | google.com  | david@gmail.com  | 1234567  | 2200 e devon   | Des Plains  | IL    | 60018 | USA     |
-     // | Murat  | amazon.com  | murat@gmail.com  | 3659854  | 6240 N bell    | Los Angelse | IL    | 60645 | USA     |
-    //  | Makmo  | expedia.com | makmo@yahoo.com  | 65985125 | 5400 N Western | Chicago     | IL    | 60625 | USA     |
-    //  | Patel  | kayak.com   | patel@gmail.com  | 5564895  | 1 Ocean dr     | Miami       | FL    | 56821 | USA     |
-    //  | Harsch | apple.com   | harsch@gmail.com | 65489532 | 1100 Wall St   | New York    | NY    | 12356 | USA     |
+        | Murat  | amazon.com  | murat@gmail.com  | 3659854  | 6240 N bell    | Los Angelse | IL    | 60645 | USA     |
+        | Makmo  | expedia.com | makmo@yahoo.com  | 65985125 | 5400 N Western | Chicago     | IL    | 60625 | USA     |
+        | Patel  | kayak.com   | patel@gmail.com  | 5564895  | 1 Ocean dr     | Miami       | FL    | 56821 | USA     |
+        | Harsch | apple.com   | harsch@gmail.com | 65489532 | 1100 Wall St   | New York    | NY    | 12356 | USA     |
 
