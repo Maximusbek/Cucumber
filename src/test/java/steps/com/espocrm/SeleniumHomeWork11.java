@@ -92,7 +92,7 @@ public class SeleniumHomeWork11 {
 
     @Then("user validates that new users are created")
     public void user_validates_that_new_users_are_created() {
-      system.out.println("Hello World")
+      system.out.println("Hello World");
     }
 
 }
