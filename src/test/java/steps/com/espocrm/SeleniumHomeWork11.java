@@ -7,13 +7,12 @@ import io.cucumber.java.eo.Se;
 import org.junit.Assert;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
-import org.openqa.selenium.support.ui.WebDriverWait;
+import org.openqa.selenium.support.ui.*;
 import pages.com.espocrm.HomePage;
 import utils.ConfigReader;
 import utils.Driver;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -82,6 +81,7 @@ public class SeleniumHomeWork11 {
     @Then("user provides details")
     public void user_provides_details(String docString) {
       homePage.descriptionField.sendKeys(docString);
+
     }
 
     @Then("user creates four new accounts and clicks save button")

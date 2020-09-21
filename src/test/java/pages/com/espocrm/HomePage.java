@@ -78,6 +78,8 @@ public class HomePage {
    @FindBy(xpath = "//button[@data-action='save']")
     public WebElement saveButton;
 
+   @FindBy(xpath = "//button[@data-name='confirm']")
+    public WebElement popUpYes;
 
 
 }
